@@ -40,9 +40,6 @@ def categorize_launches(launches):
 
 launches = categorize_launches(fetch_space_launches())
 
-# print(launches)
-
-
 # run only if we run THIS file..
 if __name__ == "__main__":
     app.run(debug=True)  # update whenever we save , then refresh page
